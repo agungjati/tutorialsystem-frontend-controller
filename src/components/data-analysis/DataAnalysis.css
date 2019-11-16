@@ -1,0 +1,39 @@
+.data-analysis{
+    margin: 15px;
+    width: auto !important;
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.list-video{
+    width: 200px;
+}
+
+.decsription{
+    line-height: 1 !important;
+    color: #777;
+}   
+
+.chart-analysis{
+    margin-left: 10px !important;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.card-analysis{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.title{
+    line-height: 1 !important;
+    margin-top: 5px !important;
+}
+.subtitlte{
+    color: #777;
+    display: inline-block;
+}

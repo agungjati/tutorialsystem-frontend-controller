@@ -14,7 +14,7 @@ import {
 } from "react-router-dom";
 import VideoUpload from "./components/video-upload/VideoUpload";
 import VideoPlaylist from "./components/video-playlist/VideoPlaylist";
-
+import DataAnalysis from "./components/data-analysis/DataAnalysis";
 
 export default class App extends React.Component {
   state = {
@@ -42,6 +42,8 @@ export default class App extends React.Component {
           <Route path="/view" component={Wrapper} />
           <Route path="/upload" component={VideoUpload} />
           <Route path="/visi-misi" component={AboutContent} />
+          <Route path="/visi-misi" component={AboutContent} />
+          <Route path="/data-analysis" component={DataAnalysis} />
           <Redirect from="/index.html" to="/" />
           <Route path="*" component={ErrorMessage} />
         </Switch>

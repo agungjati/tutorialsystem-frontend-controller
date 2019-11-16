@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Typography, IconButton, Avatar, ButtonBase } from '@material-ui/core';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ThumbDownIcon from '@material-ui/icons/ThumbDown';
-
+import "./VideoPlaylistComment.css"; 
 
 class VideoPlaylistComment extends Component {
     render() {
@@ -19,7 +19,7 @@ class VideoPlaylistComment extends Component {
               <Typography variant="subtitle2" className="text-grey">6 hari yang lalu</Typography>
             </Grid>
             <Grid item>
-              <Typography variant="subtitle2">
+              <Typography variant="subtitle2" className="column-comment">
                 Wow hontoni subarashi<br />
                 Wow hontoni subarashi<br />
                 Wow hontoni subarashi
